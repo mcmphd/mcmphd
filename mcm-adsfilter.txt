@@ -1,0 +1,10 @@
+||richmond.com^script
+||richmond.com^cookie
+||bloomberg.com^script
+||bloomberg.com^cookie
+||bloomberg.com^removeparam
+||cen.acs.org^cookie
+||washingtonpost.com^script
+||washingtonpost.com^cookie
+vcu.edu##vcu-branding-bar--top
+$removeparam=utm_source|utm_medium|utm_term|utm_content|utm_campaign|utm_referrer
