@@ -16,19 +16,25 @@
         margin:1em auto;
         max-width:40em;
         padding:1em;
-        font-family: "Canela Text", "Palatino Linotype", Palatino, serif;
+        font-family: Palatino, serif;
         font-size: 1.272em;
         line-height:1.618em;
         background-color: #fffff3;
         color: #222222;
+        text-rendering: optimizeLegibility;
      }
 
      a:link { color: #33a1c9; }  /* unvisited links */
      a:visited { color: #66023c; } /* visited links   */
 
-         h1,h2,h3 {
+        h1,h2,h3 {
              line-height:1.272em;
-             font-family: "Avenir Next", sans-serif;
+             font-family: "Helvetica", sans-serif;
+             font-weight: bold;
+             background: -webkit-linear-gradient(0deg, #0e2b36, #33a1c9);
+             -webkit-background-clip: text;
+             background-clip: text;
+             -webkit-text-fill-color: transparent;
             }
         h1{
              font-size: 1.618em;
@@ -39,23 +45,25 @@
         h3{
              font-size: 1.128em;
         }
-        #headcut{
+        #hedcut{
             float:right;
             width: 23%;
         }
-        #headinfo{
-        }
-        #headname{
-            font-family: "D-DIN", "Exo 2", "Graphik", sans-serif;
+        /* #hedinfo{ }*/
+        #hedname{
+            font-family: "Gill Sans", "Helvetica", sans-serif;
             font-size: 2.618em;
             line-height:1.128em;
             font-weight: bold;
-            color:#33a1c9;
+            background: -webkit-linear-gradient(0deg, #0e2b36, #33a1c9);
+             -webkit-background-clip: text;
+             background-clip: text;
+             -webkit-text-fill-color: transparent;       
         }
-        #headdegree{
-            font-family: "D-DIN", "Exo 2", "Graphik", sans-serif;
+        #heddegree{
+            font-family: "Gill Sans", "Helvetica", sans-serif;
         }
-        #headinfo .headdetail p{
+        #hedinfo .heddetail p{
             line-height:1em;
         }
 
@@ -128,17 +136,17 @@
 <body>
   <article>
     <header>
-      <img alt="a picture of me smiling in a suit, blue shirt and navy jacket, no tie, standing in front of a neutral stone wall"
-              id="headcut"
-              src="./headcut.jpg">
-      <div id="headinfo">
-        <div id="headname">
+      <img alt="a WSJ-style hedcut image of my face"
+              id="hedcut"
+              src="./hedcut.png">
+      <div id="hedinfo">
+        <div id="hedname">
           Michael C. Mancini
         </div>
-        <div id="headdegree">
+        <div id="heddegree">
           Ph.D., Biomedical Engineering
         </div>
-        <div class="headdetail">
+        <div class="heddetail">
           <p>Professional experience in:</p>
           <ul>
             <li>Business Development</li>
